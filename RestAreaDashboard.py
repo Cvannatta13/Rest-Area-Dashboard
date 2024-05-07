@@ -31,7 +31,7 @@ df = load_data()
 st.markdown('<h1 style="color: gold;">The California Rest Area Dashboard</h1>', unsafe_allow_html=True)
 
 #Using California rest area picture as a banner
-banner_path = r"C:\Users\cvann\PycharmProjects\Python_VanNatta\Rest Area Banner.jpg"
+banner_path = "Rest Area Banner.jpg"
 banner = Image.open(banner_path)
 st.image(banner, use_column_width=True) #[ST4]
 
